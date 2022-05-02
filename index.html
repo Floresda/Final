@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Life</title>
+    <link rel="icon" type="image/x-icon" href="My%20logo.png">
+    <link rel="stylesheet" href="Purdy.css">
+   <!-- icon library-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+<div class="tab">
+    <span>My Life</span>
+    <button class="tablinks" onclick="openCity(event, 'Previous')">Previous Work</button>
+    <button class="tablinks" onclick="openCity(event, 'Me')">About Me</button>
+    <button class="tablinks" onclick="openCity(event, 'Home')">Home</button>
+</div>
+
+<div id="Home" class="tabcontent">
+    <h2 style="background-color:#F20707; width: 330px; padding-left: 5px; ">Hi! My name is David Flores</h2>
+        <div class="flip-card">
+             <div class="flip-card-inner">
+                 <div class="flip-card-front">
+                     <img src="mE.png" alt="Sitting on a ledge" class="me">
+                     </div>
+                <div class="flip-card-back">
+                <p>This Picture is of me when I went to Missouri on a retreat with my fraternity. It was one of my greatest weekends with the guys and definitely the most memorable. </p>
+                <p>We rented out a mansion and were able to grow as brothers.</p>
+                    </div>
+             </div>
+        </div>
+    <p>Embark on this webpage and find out who this ugly person above is.</p>
+    <button onclick="myFunction()">Click Me</button>
+    <p id="demo"></p>
+</div>
+
+<div id="Me" class="tabcontent">
+    <h2 style="background-color: #A60D0D; width: 120px; padding-left: 5px;">Who I am</h2>
+    <img src="Me.jpg" alt="Smiling Picture of me" style="width: 250px; height: 300px;float: right;">
+    <p style="margin-top: 50px;">I'm 21 years young and pursuing a bachelors degree in computer graphics technology.
+    I've had previous goals of working for a big business like google, apple, or tesla. In 5 year
+    I see myself working as a full time employee at a graphic design company or business that'll kick
+    start my career as a graphic designer.</p>
+    <p style="margin-top: 25px;">Why I chose to come to IUPUI and Indianapolis was because I wanted to experience what it was like
+    to live in the city and give me an experience outside of living in the country where nothing goes on.
+    My family resides in a small town called Ligonier up in NorthEastern Indiana, I have 3 sister and no brothers, and
+    I have a big family that lives in the town.</p>
+    <h2 style="background-color: #A60D0D; width:200px; padding-left:5px; margin-top:75px;">Physical Activity</h2>
+    <img src="Gym.jpg" alt="Gym Rack" class="gym">
+    <p>Regularly during the school year I aim to hit the gym about 3 to 4 times based on how busy I am with school and work.
+    I've started hitting the gym for my health due to the fact I was being very inactive and huge motivator was my cousin Michael
+    who encouraged me to go out to the gym with him and told me to stop being lazy. With his help over the past year I gained about
+    40lbs of mass and never felt better.</p>
+</div>
+
+<div id="Previous" class="tabcontent">
+    <h2 style="background-color: #730E0E; width: 210px; padding-left: 5px;">Previous Artwork</h2>
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_blank" href="artwork.jpg">
+                <img src="artwork.jpg" alt="Least Weasel" width="600" height="400">
+            </a>
+            <div class="desc">Used this as a final and we were told to recreate a famous artist style of work and use an endangered species in Indiana and I choose the Least Weasel.</div>
+        </div>
+    </div>
+
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_blank" href="artwork_2.jpg">
+                <img src="artwork_2.jpg" alt="Spiderman Poster" width="600" height="400">
+            </a>
+            <div class="desc">Recreated a poster I choose of the internet and used this for a final.</div>
+        </div>
+    </div>
+
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_blank" href="artwork_3.jpg">
+                <img src="artwork_3.jpg" alt="Joker" width="600" height="400">
+            </a>
+            <div class="desc">I wanted to get in the spirit of Halloween and turned myself into the joker from the dark knight.</div>
+        </div>
+    </div>
+
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_blank" href="artwork_4.jpg">
+                <img src="artwork_4.jpg" alt="Alpha Sigmas" width="600" height="400">
+            </a>
+            <div class="desc">I used photo of me and my fraternity and edited it to enjoy christmas.</div>
+        </div>
+    </div>
+    <div class="clearfix"></div>
+    <div style="padding:6px;">
+        <p>Above are images I've used to post on my social media as well as using them for my final. My favorite overall picture I've worked on is the spiderman poster because I used it for a final and recieve a really good grade. It took about 10 hours to create, but it well worth it in the end. You can click on each photo to get an even closer look.</p>
+    </div>
+</div>
+
+
+<footer>
+    <h3 style="padding-top: 25px;">Don't forget to follow me :)</h3>
+    <a href="https://www.linkedin.com/in/david-flores2307/" class="fa fa-linkedin"></a>
+    <a href="https://www.facebook.com/profile.php?id=100024730212512" class="fa fa-facebook"></a>
+    <a href="https://www.instagram.com/fdavid178/?hl=en" class="fa fa-instagram"></a>
+</footer>
+<script src="app.js"></script>
+</body>
+</html>
